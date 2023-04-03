@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Bold.woff2') format('woff2'),
+        url('fonts/Lato-Bold.woff') format('woff'),
+        url('fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Italic.woff2') format('woff2'),
+        url('fonts/Lato-Italic.woff') format('woff'),
+        url('fonts/Lato-Italic.svg#Lato-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.woff2') format('woff2'),
+        url('fonts/Lato-Regular.woff') format('woff'),
+        url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+body{
+    font-family: 'Lato';
+  
+}
+h1{
+    font-weight: bold;
+    font-weight: normal;
+
+    font-style: oblique;
+    font-style: normal;
+    font-style: italic;
+
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: blink;
+
+    line-height: 10px;
+
+    letter-spacing: 0px;
+    word-spacing: 50px;
+
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+
+    text-indent: -9px;
+
+    text-shadow: 1px 1px 2px red;
+
+}
+/* a:link{
+    text-decoration: none;
+    color: brown;
+} */
+/* a:visited{
+    color: burlywood;
+} */
+/* a:active{
+    color: chartreuse;
+} */
+
+input:focus{
+    color: brown;
+}
+
+.sp{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-align: right;
+    text-align: left;
+}
+
+.first::first-letter{
+    color: red;
+}
+
+.first::first-line{
+    font-weight: bold;
+}
